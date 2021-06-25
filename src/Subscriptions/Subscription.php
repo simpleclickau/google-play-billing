@@ -97,7 +97,7 @@ class Subscription
     public function cancel()
     {
         $uri = sprintf(self::URI_CANCEL, $this->packageName, $this->subscriptionId, $this->token);
-        $response = $this->client->get($uri);
+        $response = $this->client->post($uri);
         $responseBody = json_decode($response->getBody(), true);
         return $responseBody;
     }
@@ -130,7 +130,7 @@ class Subscription
     public function refund()
     {
         $uri = sprintf(self::URI_REFUND, $this->packageName, $this->subscriptionId, $this->token);
-        $response = $this->client->get($uri);
+        $response = $this->client->post($uri);
         $responseBody = json_decode($response->getBody(), true);
         return $responseBody;
     }
@@ -141,7 +141,7 @@ class Subscription
     public function revoke()
     {
         $uri = sprintf(self::URI_REVOKE, $this->packageName, $this->subscriptionId, $this->token);
-        $response = $this->client->get($uri);
+        $response = $this->client->post($uri);
         $responseBody = json_decode($response->getBody(), true);
         return $responseBody;
     }
