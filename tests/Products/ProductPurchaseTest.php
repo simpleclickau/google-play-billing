@@ -1,9 +1,9 @@
 <?php
 
-namespace Imdhemy\GooglePlay\Tests\Products;
+namespace Simpleclick\GooglePlay\Tests\Products;
 
 use Faker\Factory;
-use Imdhemy\GooglePlay\Products\ProductPurchase;
+use Simpleclick\GooglePlay\Products\ProductPurchase;
 use PHPUnit\Framework\TestCase;
 
 class ProductPurchaseTest extends TestCase

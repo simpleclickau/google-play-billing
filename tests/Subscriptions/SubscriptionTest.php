@@ -1,12 +1,12 @@
 <?php
 
-namespace Imdhemy\GooglePlay\Tests\Subscriptions;
+namespace Simpleclick\GooglePlay\Tests\Subscriptions;
 
 use GuzzleHttp\Exception\GuzzleException;
-use Imdhemy\GooglePlay\ClientFactory;
-use Imdhemy\GooglePlay\Subscriptions\Subscription;
-use Imdhemy\GooglePlay\Subscriptions\SubscriptionPurchase;
-use Imdhemy\GooglePlay\Tests\TestCase;
+use Simpleclick\GooglePlay\ClientFactory;
+use Simpleclick\GooglePlay\Subscriptions\Subscription;
+use Simpleclick\GooglePlay\Subscriptions\SubscriptionPurchase;
+use Simpleclick\GooglePlay\Tests\TestCase;
 
 class SubscriptionTest extends TestCase
 {

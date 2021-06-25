@@ -1,17 +1,17 @@
 <?php
 
-namespace Imdhemy\GooglePlay\Tests\Subscriptions;
+namespace Simpleclick\GooglePlay\Tests\Subscriptions;
 
 use Faker\Factory;
 use GuzzleHttp\Exception\GuzzleException;
-use Imdhemy\GooglePlay\ClientFactory;
-use Imdhemy\GooglePlay\Subscriptions\Subscription;
-use Imdhemy\GooglePlay\Subscriptions\SubscriptionPurchase;
-use Imdhemy\GooglePlay\Tests\TestCase;
-use Imdhemy\GooglePlay\ValueObjects\Cancellation;
-use Imdhemy\GooglePlay\ValueObjects\IntroductoryPriceInfo;
-use Imdhemy\GooglePlay\ValueObjects\PromotionType;
-use Imdhemy\GooglePlay\ValueObjects\SubscriptionPriceChange;
+use Simpleclick\GooglePlay\ClientFactory;
+use Simpleclick\GooglePlay\Subscriptions\Subscription;
+use Simpleclick\GooglePlay\Subscriptions\SubscriptionPurchase;
+use Simpleclick\GooglePlay\Tests\TestCase;
+use Simpleclick\GooglePlay\ValueObjects\Cancellation;
+use Simpleclick\GooglePlay\ValueObjects\IntroductoryPriceInfo;
+use Simpleclick\GooglePlay\ValueObjects\PromotionType;
+use Simpleclick\GooglePlay\ValueObjects\SubscriptionPriceChange;
 
 class SubscriptionPurchaseTest extends TestCase
 {

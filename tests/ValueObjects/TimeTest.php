@@ -1,11 +1,11 @@
 <?php
 
-namespace Imdhemy\GooglePlay\Tests\ValueObjects;
+namespace Simpleclick\GooglePlay\Tests\ValueObjects;
 
 use Carbon\Carbon;
 use Faker\Factory;
-use Imdhemy\GooglePlay\Tests\TestCase;
-use Imdhemy\GooglePlay\ValueObjects\Time;
+use Simpleclick\GooglePlay\Tests\TestCase;
+use Simpleclick\GooglePlay\ValueObjects\Time;
 
 class TimeTest extends TestCase
 {

@@ -56,8 +56,8 @@ To acknowledge a product, you need a Client, which can be created by `ClientFact
 , then create an instance of the `Imdhemy\Products\Product` class, finally trigger the `acknowledge()` method.
 
 ```php
-use Imdhemy\GooglePlay\ClientFactory;
-use Imdhemy\GooglePlay\Products\Product;
+use Simpleclick\GooglePlay\ClientFactory;
+use Simpleclick\GooglePlay\Products\Product;
 
 $client = ClientFactory::create([ClientFactory::SCOPE_ANDROID_PUBLISHER]);
 $product = new Product($client, 'com.example.package.name', 'productId', 'Purchase_Token');
@@ -69,8 +69,8 @@ To check the purchase and consumption status of an inapp item, use the same step
 , but trigger the `get()` method not the acknowledge one.
 
 ```php
-use Imdhemy\GooglePlay\ClientFactory;
-use Imdhemy\GooglePlay\Products\Product;
+use Simpleclick\GooglePlay\ClientFactory;
+use Simpleclick\GooglePlay\Products\Product;
 
 $client = ClientFactory::create([ClientFactory::SCOPE_ANDROID_PUBLISHER]);
 $product = new Product($client, 'com.example.package.name', 'productId', 'Purchase_Token');
@@ -141,8 +141,8 @@ The following methods are available to be used on a subscription:
 **N.B.** The stroked method are not implemented yet. help us with your contributions 😅. 
 
 ```php
-use Imdhemy\GooglePlay\ClientFactory;
-use Imdhemy\GooglePlay\Subscriptions\Subscription;
+use Simpleclick\GooglePlay\ClientFactory;
+use Simpleclick\GooglePlay\Subscriptions\Subscription;
 
 $client = ClientFactory::create([ClientFactory::SCOPE_ANDROID_PUBLISHER]);
 $subscription = new Subscription($client, 'com.example.package.name', 'subscriptionId', 'Purchase_Token');
@@ -199,7 +199,7 @@ Your app needs to handle the state changes that are described in the following t
 
 After receiving a real-time developer notification, you can parse its contents as follows:
 ```php
-use Imdhemy\GooglePlay\DeveloperNotifications\DeveloperNotification;
+use Simpleclick\GooglePlay\DeveloperNotifications\DeveloperNotification;
 $data = 'the_received_base_64_encoded_string';
 $developerNotification = DeveloperNotification::parse($data); // Imdhemy\GooglePlay\DeveloperNotifications\DeveloperNotification
 $subscriptionNotification = $developerNotification->getSubscriptionNotification(); // Imdhemy\GooglePlay\DeveloperNotifications\SubscriptionNotification

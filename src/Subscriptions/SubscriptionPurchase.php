@@ -1,16 +1,16 @@
 <?php
 
 
-namespace Imdhemy\GooglePlay\Subscriptions;
+namespace Simpleclick\GooglePlay\Subscriptions;
 
-use Imdhemy\GooglePlay\ValueObjects\AcknowledgementState;
-use Imdhemy\GooglePlay\ValueObjects\Cancellation;
-use Imdhemy\GooglePlay\ValueObjects\IntroductoryPriceInfo;
-use Imdhemy\GooglePlay\ValueObjects\Price;
-use Imdhemy\GooglePlay\ValueObjects\PriceChangeState;
-use Imdhemy\GooglePlay\ValueObjects\PromotionType;
-use Imdhemy\GooglePlay\ValueObjects\SubscriptionPriceChange;
-use Imdhemy\GooglePlay\ValueObjects\Time;
+use Simpleclick\GooglePlay\ValueObjects\AcknowledgementState;
+use Simpleclick\GooglePlay\ValueObjects\Cancellation;
+use Simpleclick\GooglePlay\ValueObjects\IntroductoryPriceInfo;
+use Simpleclick\GooglePlay\ValueObjects\Price;
+use Simpleclick\GooglePlay\ValueObjects\PriceChangeState;
+use Simpleclick\GooglePlay\ValueObjects\PromotionType;
+use Simpleclick\GooglePlay\ValueObjects\SubscriptionPriceChange;
+use Simpleclick\GooglePlay\ValueObjects\Time;
 
 class SubscriptionPurchase
 {

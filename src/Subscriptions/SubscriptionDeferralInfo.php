@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Imdhemy\GooglePlay\Subscriptions;
+namespace Simpleclick\GooglePlay\Subscriptions;
 
 class SubscriptionDeferralInfo
 {

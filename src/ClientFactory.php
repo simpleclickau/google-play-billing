@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Imdhemy\GooglePlay;
+namespace Simpleclick\GooglePlay;
 
 use Exception;
 use Google\Auth\ApplicationDefaultCredentials;

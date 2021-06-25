@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Imdhemy\GooglePlay\Products;
+namespace Simpleclick\GooglePlay\Products;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;

@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Imdhemy\GooglePlay\Subscriptions;
+namespace Simpleclick\GooglePlay\Subscriptions;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
-use Imdhemy\GooglePlay\ValueObjects\Time;
+use Simpleclick\GooglePlay\ValueObjects\Time;
 
 /**
  * Class Subscription

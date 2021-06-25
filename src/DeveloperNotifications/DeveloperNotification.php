@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Imdhemy\GooglePlay\DeveloperNotifications;
+namespace Simpleclick\GooglePlay\DeveloperNotifications;
 
-use Imdhemy\GooglePlay\ValueObjects\Time;
+use Simpleclick\GooglePlay\ValueObjects\Time;
 
 class DeveloperNotification
 {

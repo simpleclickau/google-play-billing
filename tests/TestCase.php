@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Imdhemy\GooglePlay\Tests;
+namespace Simpleclick\GooglePlay\Tests;
 
 class TestCase extends \PHPUnit\Framework\TestCase
 {

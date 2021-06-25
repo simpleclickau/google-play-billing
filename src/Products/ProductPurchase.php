@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Imdhemy\GooglePlay\Products;
+namespace Simpleclick\GooglePlay\Products;
 
-use Imdhemy\GooglePlay\ValueObjects\AcknowledgementState;
-use Imdhemy\GooglePlay\ValueObjects\ConsumptionState;
-use Imdhemy\GooglePlay\ValueObjects\PurchaseState;
-use Imdhemy\GooglePlay\ValueObjects\PurchaseType;
-use Imdhemy\GooglePlay\ValueObjects\Time;
+use Simpleclick\GooglePlay\ValueObjects\AcknowledgementState;
+use Simpleclick\GooglePlay\ValueObjects\ConsumptionState;
+use Simpleclick\GooglePlay\ValueObjects\PurchaseState;
+use Simpleclick\GooglePlay\ValueObjects\PurchaseType;
+use Simpleclick\GooglePlay\ValueObjects\Time;
 
 class ProductPurchase
 {

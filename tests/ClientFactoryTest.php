@@ -1,10 +1,10 @@
 <?php
 
-namespace Imdhemy\GooglePlay\Tests;
+namespace Simpleclick\GooglePlay\Tests;
 
 use Exception;
 use GuzzleHttp\Client;
-use Imdhemy\GooglePlay\ClientFactory;
+use Simpleclick\GooglePlay\ClientFactory;
 
 class ClientFactoryTest extends TestCase
 {

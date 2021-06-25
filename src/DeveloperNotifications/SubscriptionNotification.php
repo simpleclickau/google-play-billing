@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Imdhemy\GooglePlay\DeveloperNotifications;
+namespace Simpleclick\GooglePlay\DeveloperNotifications;
 
 class SubscriptionNotification
 {

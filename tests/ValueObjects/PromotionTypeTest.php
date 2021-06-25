@@ -1,8 +1,8 @@
 <?php
 
-namespace Imdhemy\GooglePlay\Tests\ValueObjects;
+namespace Simpleclick\GooglePlay\Tests\ValueObjects;
 
-use Imdhemy\GooglePlay\ValueObjects\PromotionType;
+use Simpleclick\GooglePlay\ValueObjects\PromotionType;
 use PHPUnit\Framework\TestCase;
 
 class PromotionTypeTest extends TestCase

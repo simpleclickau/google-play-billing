@@ -1,8 +1,8 @@
 <?php
 
-namespace Imdhemy\GooglePlay\Tests\ValueObjects;
+namespace Simpleclick\GooglePlay\Tests\ValueObjects;
 
-use Imdhemy\GooglePlay\ValueObjects\Price;
+use Simpleclick\GooglePlay\ValueObjects\Price;
 use PHPUnit\Framework\TestCase;
 
 class PriceTest extends TestCase

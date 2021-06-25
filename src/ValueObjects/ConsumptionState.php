@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Imdhemy\GooglePlay\ValueObjects;
+namespace Simpleclick\GooglePlay\ValueObjects;
 
 /**
  * Class ConsumptionState

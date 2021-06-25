@@ -1,9 +1,9 @@
 <?php
 
-namespace Imdhemy\GooglePlay\Tests\ValueObjects;
+namespace Simpleclick\GooglePlay\Tests\ValueObjects;
 
-use Imdhemy\GooglePlay\Tests\TestCase;
-use Imdhemy\GooglePlay\ValueObjects\AcknowledgementState;
+use Simpleclick\GooglePlay\Tests\TestCase;
+use Simpleclick\GooglePlay\ValueObjects\AcknowledgementState;
 
 class AcknowledgementStateTest extends TestCase
 {
